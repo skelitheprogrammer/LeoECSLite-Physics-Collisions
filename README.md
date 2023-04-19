@@ -3,6 +3,9 @@
 # Содержание
 
 * [Подключение](#Подключение)
+  * [Создание ентитей](#Создание-ентитей)
+  * [Синхронизация объектов с ецс](#Синхронизация-объектов-с-ецс)  
+* [Контакты](#Контакты)
 
 # Установка
 
@@ -31,8 +34,12 @@ https://github.com/skelitheprogrammer/LeoECSLite-Physics-Collisions.git
 * `ECSObjectCollisionBehaviour` - обрабатывает `OnCollisionEnter` `OnCollisionExit`
 > Требует наличие `EntityReferenceHolder` компонента, чтобы знать у какой ентити произошла коллизия
 
-##Создание ентитей
-Чтобы создать ентитю-коллизию, нужно добавить `CollisionComponent`, 
-который будет держать в себе данные о произошедшей коллизии
-
 # Подключение
+##Создание ентитей
+Чтобы создать ентитю-коллизию, нужно добавить `CollisionComponent` `GameObjectReferenceComponent` компоненты
+##Синхронизация объектов с ецс
+Нужно добавить `SyncCollisionsSystem` после всех систем, обарабатывающих данные `CollisionComponent`  
+
+# Контакты
+E-mail: dosynkirill@gmail.com </br>
+Discord: @skilli на [сервере дискорд](#Социальные-ресурсы)
