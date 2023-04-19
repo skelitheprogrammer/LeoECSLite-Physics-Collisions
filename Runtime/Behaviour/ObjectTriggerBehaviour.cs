@@ -1,9 +1,9 @@
 using Skillitronic.LeoECSLite.Common;
 using UnityEngine;
 
-namespace Skillitronic.LeoECSLite.Physics.Collisions
+namespace Skillitronic.LeoECSLite.CollisionHandling.Behaviour
 {
-    public sealed class ECSObjectTriggerBehaviour : ECSCollisionBehaviour
+    public sealed class ObjectTriggerBehaviour : CollisionBehaviour
     {
         private void OnTriggerEnter(Collider other)
         {
@@ -14,7 +14,7 @@ namespace Skillitronic.LeoECSLite.Physics.Collisions
 
             if (other.TryGetComponent(out EntityReferenceHolder entityReferenceHolder))
             {
-                OnCollision(Entity, new CollisionData(entityReferenceHolder.Entity, true));
+                OnCollision(EntityReference, new CollisionData(entityReferenceHolder.Entity, true));
             }
         }
 
@@ -27,7 +27,7 @@ namespace Skillitronic.LeoECSLite.Physics.Collisions
 
             if (other.TryGetComponent(out EntityReferenceHolder entityReferenceHolder))
             {
-                OnCollision(Entity, new CollisionData(entityReferenceHolder.Entity, false));
+                OnCollision(EntityReference, new CollisionData(entityReferenceHolder.Entity, false));
             }
         }
     

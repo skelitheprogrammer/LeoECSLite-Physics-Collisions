@@ -1,4 +1,4 @@
-namespace Skillitronic.LeoECSLite.Physics.Collisions.Components
+namespace Skillitronic.LeoECSLite.CollisionHandling.Components
 {
     public struct CollisionComponent
     {

@@ -1,4 +1,4 @@
-namespace Skillitronic.LeoECSLite.Physics.Collisions
+namespace Skillitronic.LeoECSLite.CollisionHandling
 {
     [System.Serializable]
     public struct CollisionData
