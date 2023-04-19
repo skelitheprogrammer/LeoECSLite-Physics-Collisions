@@ -1,0 +1,23 @@
+{
+  "name": "com.skillitronic.leoecslite.physics.collisions",
+  "displayName": "LeoECS Lite Collisions Wrapper",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [
+    "unity",
+    "unity3d",
+    "upm",
+    "Skillitronic",
+    "collisions",
+    "LeoEcs",
+    "utility"
+  ],
+  "dependencies": {
+    "com.leopotam.ecslite": "2023.3.22",
+    "com.skillitronic.leoecscommon": "0.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}

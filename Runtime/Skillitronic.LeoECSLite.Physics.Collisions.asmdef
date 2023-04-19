@@ -1,0 +1,17 @@
+{
+    "name": "Skillitronic.LeoECSLite.Physics.Collisions",
+    "rootNamespace": "Skillitronic.LeoECSLite.Physics.Collisions",
+    "references": [
+        "GUID:e59bf9fc7d5a44b18a819a92edd46163",
+        "GUID:9819da74b6761bf4bb3e5abfe7cb917a"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
